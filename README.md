@@ -20,3 +20,10 @@ O sistema foi desenvolvido com o objetivo de demonstrar conhecimentos em:
 {
   "razao_social": "Empresa Exemplo LTDA"
 }
+```
+---
+
+ ### Deploy em Produção
+- A aplicação está publicada na nuvem utilizando o Azure App Service (Linux - F1) e encontra-se acessível publicamente via internet.
+- O deploy é realizado de forma automatizada por meio de integração contínua (CI/CD) com GitHub Actions, sendo acionado a cada push na branch principal do repositório.
+- Essa configuração simula um fluxo real de desenvolvimento profissional, onde alterações no código são automaticamente publicadas em ambiente de produção.
