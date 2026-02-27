@@ -20,18 +20,3 @@ O sistema foi desenvolvido com o objetivo de demonstrar conhecimentos em:
 {
   "razao_social": "Empresa Exemplo LTDA"
 }
-
-Este projeto simula um cenário real de backend onde um sistema atua como intermediário entre o cliente e uma API externa, aplicando regras de negócio, controle e abstração de dados.
-
-A aplicação está publicada em ambiente de produção na Azure com deploy automatizado.
-
-# Objetivo do Projeto
-
-Demonstrar na prática:
-Construção de API REST
-Consumo de API externa
-Estruturação de backend
-Deploy em nuvem
-Integração contínua com GitHub Actions
-
-O projeto representa um microserviço responsável por intermediar requisições externas e retornar dados tratados ao cliente.
