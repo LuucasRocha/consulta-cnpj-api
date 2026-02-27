@@ -1,4 +1,4 @@
-Objetivo do Teste 
+Objetivo 
  ----------------- 
  Você deverá criar uma API em Python que consulte a razão social de uma empresa a partir de um CNPJ, utilizando a API gratuita do CNPJJá. Após isso, deverá publicar a aplicação em um App Service gratuito do Azure, garantindo o funcionamento do endpoint publicamente.
 
