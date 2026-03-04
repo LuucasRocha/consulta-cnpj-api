@@ -46,7 +46,7 @@ Clique aqui para consultar o CNPJ da Google Brasil
 
 - Abra o seu terminal (Prompt, PowerShell ou Bash) e execute o comando abaixo:
 
-curl -X GET [https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar/06990590000123](https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar-cnpj?cnpj=06990590000123)
+curl -X GET [https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar-cnp?cnpj=06990590000123](https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar-cnpj?cnpj=06990590000123)
 
 3. Via Postman ou Insomnia
 
