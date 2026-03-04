@@ -37,7 +37,7 @@ A API está hospedada e operacional no Azure. Você pode testar a consulta de CN
 - Acesse a URL diretamente no seu browser substituindo {cnpj} pelo número desejado (apenas números):
 
 URL Base:
-https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar/{cnpj}
+https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar-cnpj?cnpj={cnpj}
 
 Exemplo Real:
 Clique aqui para consultar o CNPJ da Google Brasil
@@ -46,12 +46,12 @@ Clique aqui para consultar o CNPJ da Google Brasil
 
 - Abra o seu terminal (Prompt, PowerShell ou Bash) e execute o comando abaixo:
 
-curl -X GET [https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar/06990590000123](https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar/06990590000123)
+curl -X GET [https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar/06990590000123](https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar-cnpj?cnpj=06990590000123)
 
 3. Via Postman ou Insomnia
 
 - Crie uma nova requisição do tipo GET.
-- Cole a URL: https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar/06990590000123
+- Cole a URL: https://consulta-cnpj-lucas-hncmbfadeabrbaay.canadacentral-01.azurewebsites.net/consultar-cnpj?cnpj=06990590000123
 - Clique em Send.
 
 O resultado esperado será um JSON contendo a chave razao_social.
