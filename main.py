@@ -31,7 +31,7 @@ def consultar_cnpj():
             return jsonify({"erro": "Razão social não encontrada"}), 404
 
         return jsonify({
-            "razao_social": razao_social
+            "Razão Social": razao_social
         })
 
     except Exception as e:
