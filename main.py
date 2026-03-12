@@ -3,6 +3,14 @@ import requests, re
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return {
+        "api": "Consulta CNPJ",
+        "status": "online",
+        "endpoint": "/consultar-cnpj?cnpj=XXXXXXXXXXXXXX"
+    }
+
 @app.route('/consultar-cnpj', methods=['GET'])
 def consultar_cnpj():
     cnpj = request.args.get('cnpj')
